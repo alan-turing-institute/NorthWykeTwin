@@ -6,12 +6,12 @@ config:
     secure: v1:aEUmbGVsHoJW3Mc3:M/WFupVTKx+P3Tz6kBHtfCOEfqPHrJDT
   dtbase-azure:frontend-docker-url: turingcropapp/nwtwin-frontend:main
   dtbase-azure:frontend-secret-key:
-    secure: v1:do/3uT/nZMj8RkCZ:zfMKEe2N4/gesOw6auF09BWAfWyAy+q1
+    secure: v1:kj//+b2JKNEjEnQA:/Hk3Ffpnpr5ZM6B6yJaFgQHZJSt3MiSofS7Zc710k1eKrBF9ESZyqlSoe+A9s20Y
+  dtbase-azure:functions-docker-url: https://hub.docker.com/repository/docker/turingcropapp/nwtwin-functions/general
   dtbase-azure:jwt-secret-key:
-    secure: v1:QiDeGEFHpab9FAKq:5d9i4J0qZqFbdU/n9TL2Yazhu9YUhAcqNaC2CrPP
+    secure: v1:WwyjOWBQc+K8pN8u:rLaq9FtnjpE4jMd5SRlR1u+LDOuEA4F0MnjoTF3ZkMfvPnXxbr8Ppu0Pfexh4DTf
   dtbase-azure:resource-name-prefix: nwtwin
-  dtbase-azure:sql-db-name:
-    secure: v1:LEvoy6Y1KvheeVXX:c+YddPUCvnTz0cDE9cf++PoTH9A=
+  dtbase-azure:sql-db-name: dtdb
   dtbase-azure:sql-server-password:
-    secure: v1:vTYOff2vS4uWYtaE:h7Zfr75B5G1vA/DRHlb9wtK1D041S8dT
+    secure: v1:tN/qjoUSR0MYmaeC:peHKPFctqORsTatAfffQOeEIsNvXJKxac+04x3duH5ce33YsdpeE4hOLs61hhzcO
   dtbase-azure:sql-server-user: dbadmin
