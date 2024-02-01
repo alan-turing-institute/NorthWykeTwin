@@ -7,7 +7,7 @@ config:
   dtbase-azure:frontend-docker-url: turingcropapp/nwtwin-frontend:main
   dtbase-azure:frontend-secret-key:
     secure: v1:kj//+b2JKNEjEnQA:/Hk3Ffpnpr5ZM6B6yJaFgQHZJSt3MiSofS7Zc710k1eKrBF9ESZyqlSoe+A9s20Y
-  dtbase-azure:functions-docker-url: https://hub.docker.com/repository/docker/turingcropapp/nwtwin-functions/general
+  dtbase-azure:functions-docker-url: turingcropapp/nwtwin-functions:main
   dtbase-azure:jwt-secret-key:
     secure: v1:WwyjOWBQc+K8pN8u:rLaq9FtnjpE4jMd5SRlR1u+LDOuEA4F0MnjoTF3ZkMfvPnXxbr8Ppu0Pfexh4DTf
   dtbase-azure:resource-name-prefix: nwtwin
