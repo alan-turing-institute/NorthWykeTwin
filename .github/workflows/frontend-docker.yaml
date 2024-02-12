@@ -41,7 +41,7 @@ jobs:
         run: pulumi login
 
       - name: Select Pulumi stack
-        run: pulumi stack select nwtwin-rgf010d438
+        run: pulumi stack select northwyketwin
 
       - name: Deploy infrastructure with Pulumi
         run: pulumi up --yes
