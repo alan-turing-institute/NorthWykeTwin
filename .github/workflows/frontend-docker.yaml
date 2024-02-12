@@ -41,7 +41,7 @@ jobs:
         run: pulumi login
 
       - name: Select Pulumi stack
-        run: pulumi stack select northwyketwin
+        run: pulumi stack select TURING-C3Z29Y3/dtbase-azure/northwyketwin
 
       - name: Deploy infrastructure with Pulumi
         run: pulumi up --yes
